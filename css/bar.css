@@ -1,0 +1,38 @@
+.cookies-gdpr-bar {
+    background-color: rgb(246, 246, 246);
+    color: rgb(68, 68, 68);
+    font-weight: 600;
+    font-size: 14px;
+    bottom: 0px;
+    position: fixed;
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 15px 0;
+    z-index: 99999;
+    box-shadow: rgba(0,0,0,.5) 0 5px 50px;
+}
+
+@media (max-width: 700px) {
+    .cookies-gdpr-text {
+        display: block;
+        margin-bottom: 10px;
+        padding: 0 10px;
+    }
+}
+
+.cookies-gdpr-button {
+    display: inline-block;
+    padding: 8px 8px;
+    cursor: pointer;
+}
+
+.cookies-gdpr-accept-button {
+    color: rgb(255, 255, 255);
+    background-color: rgb(32, 153, 209);
+}
+
+.cookies-gdpr-privacy-policy-button {
+    color: rgb(246, 246, 246);
+    background-color: rgb(145, 145, 145);
+}
